@@ -232,7 +232,7 @@ footer {
 }
 
 .footer-logo img {
-    max-width: 200px;
+    max-width: 250px;
 }
 
 .footer-contact {
@@ -299,6 +299,7 @@ footer {
     .footer-logo {
         width: 100%;
         padding-top: 20px;
+        text-align: center;
     }
     .footer-contact {
         width: 100%;
