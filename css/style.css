@@ -1,0 +1,290 @@
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('../fonts/Roboto-Medium.ttf');
+    font-weight: 500;
+    font-style: medium;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: roboto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header {
+    background-image: url(../img/head_fon.jpg);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+    align-items: center;
+    color: #fff;
+}
+
+.logo img {
+    max-width: 300px;
+}
+
+.company-name {
+    font-size: 24px;
+}
+
+.header-contact {
+    text-align: center;
+    font-size: 24px;
+}
+
+.header-contact-phone a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.promo {
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.promo-info {
+    margin: 0 auto;
+}
+
+.promo h1 {
+    font-size: 32px;
+}
+
+.promo p {
+    font-size: 24px;
+}
+
+.forma {
+    background-color: blue;
+    height: 50px;
+}
+
+.information {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    font-family: roboto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.contacts {
+    background-color: #ff6347;
+    padding: 40px 0 40px 0;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+}
+
+.contacts-phone {
+    margin: 10px 0 20px 0;
+}
+
+.contacts-phone a {
+    text-decoration:none;
+    color: #fff;
+}
+
+.contacts-info {
+    font-size: 18px;
+}
+
+.steps {
+    margin: 0 auto;
+    background-color:#f5f5f5;
+    padding: 60px 0 100px 0;
+    text-align: center;  
+}
+
+.steps-head {
+    font-size: 42px;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: medium;
+    margin-bottom: 50px;
+}
+
+.step {
+    margin-bottom: 50px;
+}
+
+.step-num {
+    width: 50px;
+    line-height: 50px;
+    background-color: #ff6347;
+    border-radius: 50%;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: medium;
+    color: #fff;
+}
+
+.step-content-head {
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: medium;
+    margin: 20px 0 10px 0;
+}
+
+.step-content-info {
+    font-family: roboto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.steps-button {
+    width: 400px;
+    line-height: 60px;
+    background-color: #ff6347;
+    border-radius: 30px;
+    margin: 0 auto;
+    font-size: 22px;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: medium;
+}
+
+.steps-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.gos-info {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.gos-info-head {
+    font-size: 42px;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: medium;
+    margin-bottom: 50px;
+}
+
+.gos-info-head {
+    text-align: center;
+}
+
+.gos-info-content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gos-info-content-item {
+    margin: 0 auto;
+    min-width: 30%;
+    text-align: center;
+}
+
+.gos-info-content-item p {
+    font-size: 22px;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: medium;
+}
+
+footer {
+    width: 100%;
+    background-color: #ff6347;
+}
+
+.footer-org,
+.footer-copyright {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-logo img {
+    max-width: 200px;
+}
+
+.footer-contact {
+    width: 30%;
+    text-align: center;
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: 500;
+    font-style: medium;
+}
+
+.footer-contact-phone a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer-copyright {
+    font-family: roboto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.footer-copyright-item2 {
+    text-align: center;
+    width: 30%;
+}
+
+@media (max-width:1024px) {
+    header {
+        padding: 10px;
+    }
+    .logo img {
+        max-width: 170px;
+    }
+    .header-contact {
+        text-align: center;
+        font-size: 16px;
+    }
+    .company-name {
+        display: none;
+    }
+    .steps-button {
+        width: 90%;
+    }
+    .gos-info-head {
+        font-size: 22px;
+    }
+    .footer-copyright {
+        display: none;
+    }
+    .footer-logo {
+        display: none;
+    }
+    .footer-contact {
+        width: 100%;
+        padding: 10px 0 10px 0;
+    }
+}
