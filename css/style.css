@@ -281,6 +281,15 @@ footer {
         width: 100%;
         text-align: center;
     }
+    .promo-info {
+        padding: 0 10px 0 10px;
+    }
+    .information {
+        padding: 0 10px 0 10px;  
+    }
+    .contacts-head {
+        font-size: 34px;
+    }
     .steps-button {
         width: 90%;
     }
