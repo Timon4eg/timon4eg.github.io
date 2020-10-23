@@ -272,14 +272,9 @@ footer {
     .logo {
         padding-top: 20px;
     }
-    /* .logo a {
-        width: 100%;
-    } */
     .header-contact {
         width: 100%;
         padding-bottom: 20px;
-        /* text-align: center;
-        font-size: 16px; */
     }
     .company-name {
         width: 100%;
@@ -292,13 +287,24 @@ footer {
         font-size: 32px;
     }
     .footer-copyright {
-        display: none;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer-org {
+        flex-wrap: wrap;
     }
     .footer-logo {
-        display: none;
+        width: 100%;
+        padding-top: 20px;
     }
     .footer-contact {
         width: 100%;
         padding: 10px 0 10px 0;
+    }
+    .footer-copyright-item2 {
+        display: none;
     }
 }
