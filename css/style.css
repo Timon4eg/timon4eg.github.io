@@ -324,9 +324,13 @@ footer {
 
 /* Стили для мобильной версии */
 @media (max-width:1024px) {
-    .forma form {
+    .forma {
+        width: 84%;
+    }
+        .forma form {
         width: 95%;
         border: none;
+        padding: 10px;
     }
     #form-comment {
         min-height: 100px;
@@ -340,7 +344,7 @@ footer {
     
     .button-form {
         width: 100%;
-        min-height: 30px;
+        min-height: 50px;
     }
     header {
         padding: 0px;
