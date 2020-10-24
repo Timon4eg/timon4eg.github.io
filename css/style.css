@@ -266,6 +266,23 @@ footer {
     padding: 30px;
 }
 
+.forma-header {
+    text-align: center;
+    font-size: 24px;
+    font-family: roboto;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.forma-txt {
+    text-align: center;
+    font-family: roboto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
 .forma form {
     background-color: #fff;
     width: 50%;
@@ -275,29 +292,56 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* flex-direction: column; */
     flex-wrap: wrap;
-
+    outline: none;
 }
 
 #form-comment {
     width: 100%;
     min-height: 200px;
     margin-bottom: 20px;
+    outline: none;
 }
 
 #form-phone {
     width: 40%;
     min-height: 30px;
-
+    outline: none;
 }
 
 .button-form {
     width: 50%;
-    min-height: 30px;
+    min-height: 40px;
+    background-color:  #ff6347;
+    border: none;
+    border-radius: 30px;
+    font-size: 22px;
+    font-family: roboto;
+    font-weight: 500;
+    color: #fff;
+    outline: none;
 }
+
 /* Стили для мобильной версии */
 @media (max-width:1024px) {
+    .forma form {
+        width: 95%;
+        border: none;
+    }
+    #form-comment {
+        min-height: 100px;
+    }
+    
+    #form-phone {
+        width: 100%;
+        min-height: 30px;
+        margin-bottom: 20px;
+    }
+    
+    .button-form {
+        width: 100%;
+        min-height: 30px;
+    }
     header {
         padding: 0px;
         flex-wrap: wrap;
