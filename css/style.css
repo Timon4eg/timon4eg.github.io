@@ -353,6 +353,10 @@ footer {
     .header-logo {
         width: 100%;
     }
+    .header-logo img {
+        width: auto;
+        
+    }
     .header-phone {
         width: 100%;
         padding: 0 10px 0 10px;
