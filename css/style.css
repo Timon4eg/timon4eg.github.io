@@ -81,7 +81,7 @@ header {
 }
 
 .questions {
-    background-color: #ededee;
+
     padding: 30px 30px 30px 30px;
 }
 
@@ -121,6 +121,14 @@ header {
 }
 
 .forma {
+    background-color: #ededee;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 30px 50px 30px;
+}
+
+.forma1 {
     width: 80%;
     margin: 0 auto;
     text-align: center;
