@@ -354,6 +354,7 @@ footer {
 @media (max-width:976px) {
     .header-logo {
         width: 100%;
+        max-height: 100px;
     }
     .header-logo img {
         width: 20%;
