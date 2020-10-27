@@ -371,6 +371,9 @@ footer {
         padding: 0 10px 0 10px;
         text-align: center;
     }
+    .forma {
+        width: 100%;
+    }
     .questions-step {
         width: 100%;
     }
