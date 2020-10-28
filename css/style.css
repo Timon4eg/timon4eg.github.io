@@ -529,11 +529,12 @@ footer {
         text-align: center;
     }
     .header-btn {
-        display: none;
+        margin: 0 auto;
+        padding: 20px 0 10px 0;
     }
-    /* .forma {
-        width: 100%;
-    } */
+    .modalDialog > div {
+        width: 80%;
+    }
     .questions-step {
         width: 100%;
     }
