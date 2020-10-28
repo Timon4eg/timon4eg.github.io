@@ -517,6 +517,9 @@ footer {
     .header-logo img {
         max-height: 90px;
     }
+    .header-logo-item1 {
+        font-size: 18px;
+    }
     .header-phone {
         width: 100%;
         padding: 0 10px 0 10px;
