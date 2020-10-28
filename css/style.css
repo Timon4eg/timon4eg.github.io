@@ -514,7 +514,9 @@ footer {
         padding: 0 10px 0 10px;
         text-align: center;
     }
-
+    .header-btn {
+        display: none;
+    }
     .forma {
         width: 100%;
     }
