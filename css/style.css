@@ -548,6 +548,9 @@ footer {
     .about-item img {
         width: 100%;
     }
+    li {
+        width: 100%;
+    }
     .steps-item {
         width: 100%;
         margin-bottom: 10px;
