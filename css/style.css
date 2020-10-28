@@ -184,6 +184,7 @@ header {
     font-size: 22px;
     margin-left: 10px;
     align-self: center;
+    text-align: center;
 }
 
 .header-phone {
