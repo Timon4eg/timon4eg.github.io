@@ -512,7 +512,7 @@ footer {
 /* Стили для мобильной версии */
 @media (max-width:976px) {
     .header-logo {
-
+        justify-content: center;
         max-height: 90px;
         padding: 0 0 10px 0;
     }
