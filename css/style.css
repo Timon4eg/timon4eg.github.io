@@ -16,10 +16,145 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+
+/* Стили модального окна */
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #999);
+    background: -webkit-linear-gradient(#fff, #999);
+    background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #1E3685; }
+
+.modalDialog-header {
+    font-family: opensans;
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+}
+
+.modalDialog-txt {
+    font-family: opensans;
+    font-weight: 300;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.modalDialog-input {
+    width: 100%;
+    font-family: opensans;
+    font-weight: 300;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.modalDialog-button-form {
+    width: 100%;
+    max-height: 40px;
+    padding: 10px;
+    font-family: opensans;
+    font-weight: 300;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1E3685;
+    outline: none;
+    border: none;
+}
+
+.modalDialog-button-form:hover {
+    color: #1E3685;
+    background-color: #fff;
+    outline: 2px solid #1E3685;
+}
+
+.modalDialog-button-form:active {
+    color: #fff;
+    background-color: #1E3685;
+}
+
+.header-modal {
+    max-width: 200px;
+    max-height: 40px;
+    color: #fff;
+    font-family: opensans;
+    font-weight: 300;
+    font-size: 20px;
+    background-color: #1E3685;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.header-modal:hover {
+    background-color: #fff;
+    color: #1E3685;
+    outline: 2px solid #1E3685;
+}
+
+.header-modal:active {
+    background-color: #1E3685;
+    color: #fff;
+    border: none;
+}
+/* Стили модального окна - КОНЕЦ */
+
 header {
     font-family: opensans;
     font-weight: 300;
-    font-style: light;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -38,7 +173,6 @@ header {
 }
 
 .header-logo {
-    width: 40%;
     display: flex;
     padding: 10px 0 10px 30px;
     justify-content: start;
@@ -52,8 +186,7 @@ header {
 }
 
 .header-phone {
-    width: 40%;
-    text-align: end;
+
     padding: 0 30px 0 0;
     align-self: center;
 }
@@ -62,6 +195,7 @@ header {
     color: #1E3685;
     font-family: opensans;
     font-weight: 700;
+    text-align: center;
 }
 
 .header-phone-item2 {
@@ -78,6 +212,16 @@ header {
     font-weight: 700;
     text-decoration: none;
     font-size: 30px;
+}
+
+.header-phone-item3 {
+    color: #1E3685;
+    text-align: center;
+}
+
+.header-btn {
+    align-self: center;
+    padding: 10px 30px 10px 0;
 }
 
 .questions {
@@ -122,7 +266,6 @@ header {
 
 .forma {
     background-color: #ededee;
-    width: 80%;
     margin: 0 auto;
     text-align: center;
     padding: 30px 30px 50px 30px;
@@ -371,6 +514,7 @@ footer {
         padding: 0 10px 0 10px;
         text-align: center;
     }
+
     .forma {
         width: 100%;
     }

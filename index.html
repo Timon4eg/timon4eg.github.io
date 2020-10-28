@@ -18,9 +18,28 @@
             <div class="header-phone-item2">
                 <a href="tel:+74993468788">8 (499) 346 87 88</a>
             </div>
+            <div class="header-phone-item3">Ежедневно с 8:00 до 21:00</div>
+        </div>
+        <div class="header-btn">
+            <a class="header-modal" href="#openModal">ЗАКАЗАТЬ ЗВОНОК</a>
         </div>
     </header>
     <main>
+        <!-- Модальное окно -->
+        <div id="openModal" class="modalDialog">
+            <div>
+                <a href="#close" title="Закрыть" class="close">X</a>
+                <div class="modalDialog-header">ПОЛУЧИТЕ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</div>
+                <div class="modalDialog-txt">Оставьте свой номер телефона и специалист свяжется с вами для решения вашей проблемы в течение 5 минут</div>
+                <form class="queryForm" action="https://partner.neo8088.ru/query.php" method="post" enctype="multipart/form-data" onsubmit="yaCounter00000000.reachGoal('FULL_ORDER'); return true;" target="_blank">
+                    <input class="modalDialog-input" id="modalDialog-name" type='text' name="name" placeholder="Ваше имя" type="text" required/>
+                    <input class="modalDialog-input" id="modalDialog-phone" type='text' name="phone" placeholder="Ваш телефон" type="text" required/> 
+                    
+                    <input name="doctor" value="Защита прав потребителей" type="hidden" /> <input name="comment" value="Я хочу проконсультироваться. Перезвоните мне!" type="hidden" /> <input name="programID" value="3" type="hidden" /> <input name="partnerID" value="14093" type="hidden" /> <input id="enc8" name="enc8" value="win1251" type="hidden" /> <input value=" ОТПРАВИТЬ ЗАЯВКУ" type="submit" class="modalDialog-button-form"/>
+                </form>
+            </div>
+        </div>
+        <!-- Модальное окно - КОНЕЦ -->
         <div class="forma">
             <div class="forma-header">ПОЛУЧИТЕ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ</div>
             <div class="forma-txt">Оставьте свой номер телефона и специалист свяжется с вами для решения вашей проблемы в течение 5 минут</div>
